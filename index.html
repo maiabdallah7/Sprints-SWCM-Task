@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Movies Database </title>
+    </head>
+    <body>
+        <header>
+            <h1> Welcome to Movies database </h1>
+        </header>
+        <section>
+            <img src="https://static.toiimg.com/thumb/msid-107873276,imgsize-123544,width-400,resizemode-4/107873276.jpg">
+            <h2> Discover the most popular movies </h2>
+            <p> Indian movies. </br> 3aash Mayoya. </p>
+        </section>
+        <section>
+            <table border="1">
+                <tr> 
+                    <th> Title </th>
+                    <th> Director </th>
+                    <th> Year </th>
+                    <th> Categorie </th>
+                </tr>
+                <tr> 
+                    <td> Bang Bang </th>
+                    <td> Salman Khan </th>
+                    <td> 2018 </th>
+                    <td> Action </th>
+                </tr>
+                <tr> 
+                    <td> Ek-Villan </th>
+                    <td> Sidhart Malhotra </th>
+                    <td> 2020 </th>
+                    <td> Action </th>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2> Top 5 movies </h2>
+            <ol>
+                <li> Bang Bang</li>
+                <li> ABCD any body can dance </li>
+                <li> Aashique 2 </li>
+                <li> Mohabatain </li>
+                <li> Happy New Year </li>
+            </ol>
+        </section>
+        <section>
+            <h2> Please enter your favourite movie </h2>
+            <p> To help us </p>
+            <form action="/submit">
+                <label for= "title"> Title </label>
+                <input type="text" id="Title" name="title" required > </br>
+                <label for= "director"> Director </label>
+                <input type="text" id="Director" name="director" required > </br>
+                <label for= "Categorie"> Categorie </label>
+                <select id="Categorie" name="Categorie" required>
+                    <option value="action"> Action </option>
+                    <option value="Comedy"> Comedy </option>
+                    <option value="Horror"> Horror </option>
+                    <option value="Romance"> Romance </option>
+                </select></br>
+                <label for= "release-date"> Release Date </label>
+                <input type="date" id="Release-date" name="Release-date" required > </br>
+                <label for="image"> Upload Image </label>
+                <input type="file" id="image" name="image"></br>
+                <button type="submit"> Submit </button>
+            </form>
+        </section>
+        <footer>
+            <p> About Us </p></br>
+            <p> For more info, visit our website <a href="https://mdbgo.io/marta-szymanska/mdb5-demo-pro-design-blocks/pro/data/datatables.html">IMDB</a> </p></br>
+        </footer>
+    </body>
+</html>
